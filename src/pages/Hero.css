@@ -1,0 +1,65 @@
+
+
+.cash-app-text {
+  font-size: 150px;
+  line-height: 1;
+}
+
+.animated-text {
+  display: inline-block;
+  animation: fadeInUp 2s alternate infinite;
+}
+
+.phone-image {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  top: 0%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+  animation: floatUpDown 2s alternate infinite; 
+}
+
+.scroll-indicator {
+  width: 7px;
+  height: 9px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 6px;
+}
+
+.animated-elements {
+  position: relative;
+}
+
+.cube-image,
+.stairs-image,
+.cubes-image,
+.pillar-image {
+  position: absolute;
+  animation: floatUpDown 2s alternate infinite;
+}
+
+.animated-div {
+  animation: floatUpDown 2s alternate infinite;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-13px);
+  }
+}
